@@ -1,10 +1,16 @@
-<style>
+header {
+  background-image: url("chalkboardbackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
   max-width: 600px;
-  background: #232323;
+  background-image: url("woodbackground.jpg");
 }
+
 div {
   height: 200px;
   background-size: cover;
@@ -12,6 +18,7 @@ div {
   margin: 40px 0 0 0;
   border-radius: 12px;
 }
+
 h1 {
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
@@ -63,6 +70,36 @@ small {
   float: right;
 }
 
+#menuBar {height: 50px;
+          margin-top: -20px; 
+          margin-bottom: 50px;
+          display: list-item;
+         }
+
+li {
+  color: white;
+  font-size: 25px;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+}
+
+ul {
+      background: rgba(0, 0, 0, 0.5);
+}
+
+#socialIcons {margin-top: -20px; 
+              padding-left: 15px; 
+              margin-bottom: 10px;
+            }
+
+.nav-bar { height: 30px; color: white;}
+.nav-bar > li.active > a { color: rgba(225,225,225,0.8); cursor: default; }
+.nav-bar > li.active:hover { background: none; cursor: default; }
+.nav-bar > li:hover { height: 30px; background: none; }
+.nav-bar > li > a { color: rgba(225,225,225,1); }
+.nav-bar > li:hover > a { color: rgba(0,0,0,0.8);}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 50px;
@@ -83,6 +120,8 @@ small {
   small {
     font-size: 16px;
   }
+
+  footer {
+  background-image: url("chalkboardbackground.jpg");
+  padding: -50px -20px -50px -10px;
 }
-  
-</style>
