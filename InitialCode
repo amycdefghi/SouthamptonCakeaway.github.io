@@ -87,6 +87,14 @@ input {
     font-size: 20px;
     margin: 20px 0 30px 0;
   }
+  ul {
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
   div {
     margin: 20px 12px 0 12px;
   }
@@ -105,7 +113,13 @@ input {
 
 <body>
 <h1>Cakeaway</h1>
-<h2>Southampton's Dessert Delivery Service</h2>
+  <h2>Southampton's Dessert Delivery Service</h2>
+<ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
 <div class="first">
   <p>Victoria Sponge <span class="price">£4.50</span><br />
   <small>The Victoria sponge, also known as the Victoria sandwich or Victorian Cake, was named after Queen Victoria, who was known to enjoy a slice of the sponge cake with her afternoon tea. Enjoy this light, fluffy sponge cake with a strawberry jam and cream filling. Serving tip: Add some fresh strawberries! </small></p>
