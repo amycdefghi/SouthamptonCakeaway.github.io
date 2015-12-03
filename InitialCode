@@ -122,11 +122,12 @@ input {
 </div>
 
 <p>Keep up to date with any new additions to the menu!</p>
+<input type="name" placeholder="Your name">
  <input type="email" placeholder="Your email">
   <input type="submit">
 
 <script>
-alert("JavaScript works!") 
+alert("Welcome to Southampton Cakeaway!") 
 $('div').on('click', function() {
   $(this).toggleClass('show-description');
 });
