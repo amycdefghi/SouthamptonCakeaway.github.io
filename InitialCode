@@ -67,6 +67,15 @@ small {
 .price {
   float: right;
 }
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
 
 @media (max-width: 500px) {
   h1 {
@@ -111,6 +120,10 @@ small {
   <p>Sticky Toffee Pudding <span class="price">£4.50</span><br />
   <small>Enjoy this classic British moist sponge cake made with dates and covered in a delicious sticky toffee sauce. Serving tip: vanilla ice cream! </small></p>
 </div>
+
+<p>Keep up to date with any new additions to the menu!</p>
+ <input type="email" placeholder="Your email">
+  <input type="submit">
 
 <script>
 alert("JavaScript works!") 
