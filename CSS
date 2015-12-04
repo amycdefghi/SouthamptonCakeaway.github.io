@@ -1,44 +1,68 @@
 header {
+  text-align: center;
   background-image: url("chalkboardbackground.jpg");
   background-size: cover;
   background-position: center;
 }
 
 body {
+  text-align: center;
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   background-image: url("woodbackground.jpg");
-}
-
-div {
-  height: 200px;
-  background-size: cover;
-  position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
 }
 
 h1 {
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
   font-size: 75px;
-  color: #aaaaaa;
-  margin: 60px 0 0 0;
+  color: white;
+  margin: 20px 0px 10px 0px;
 }
+
 h2 {
   text-align: center;
-  color: #bbbbbb;
-  margin: 0px 0 70px 0;
+  color: white;
+  margin: 10px 0px 60px 0px;
 }
-p {
-  color: rgba(255,255,255,1);
+
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 50px 0px 0px 0px;
+  border-radius: 15px;
+}
+
+#menuBar {height: 50px;
+          margin-top: -20px; 
+          margin-bottom: 40px;
+        }
+
+#about {color: white;
+        text-align: center;
+        background-image: url("chalkboardbackground.jpg");
+        background-size: cover;
+        background-position: center;
+        margin: 20px 0px 0px 0px;
+        text-align: center;     
+  }
+
+#aboutext {color: white;
+          padding: 40px 10px 0px 10px;
+          text-align: center;
+          background-color: none;
+          position: top;
+}
+
+#menu { color: rgba(255,255,255,1);
   background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
   padding: 10px;
-  line-height: 30px;
+  line-height: 20px;
   text-align: justify;
   position: absolute;
   bottom: 0;
@@ -46,35 +70,39 @@ p {
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
 }
+
 small {
   opacity: 0;
 }
+
 .show-description p {
-  height: 150px;
+  height: 100px;
 }
 
 .show-description small {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .first{
-  background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
+  background-image: url("victoria.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .second{
-  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+  background-image: url("cheesecake.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
 .third{
-  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+  background-image: url("toffee.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
 .price {
   float: right;
 }
-
-#menuBar {height: 50px;
-          margin-top: -20px; 
-          margin-bottom: 50px;
-          display: list-item;
-         }
 
 li {
   color: white;
@@ -88,17 +116,27 @@ ul {
       background: rgba(0, 0, 0, 0.5);
 }
 
-#socialIcons {margin-top: -20px; 
-              padding-left: 15px; 
-              margin-bottom: 10px;
+
+#bottomNav {
+            margin-top: -200px;
+            margin-bottom: -700px;
+            text-align: center;
+            color: white;
+            }
+
+#socialIcons {
+              margin-top: 600px; 
+              text-align: center;
+              margin-bottom: -300px;
             }
 
 .nav-bar { height: 30px; color: white;}
-.nav-bar > li.active > a { color: rgba(225,225,225,0.8); cursor: default; }
+.na-bar > li.active > a { color: rgba(225,225,225,0.8); cursor: default; }
 .nav-bar > li.active:hover { background: none; cursor: default; }
 .nav-bar > li:hover { height: 30px; background: none; }
 .nav-bar > li > a { color: rgba(225,225,225,1); }
 .nav-bar > li:hover > a { color: rgba(0,0,0,0.8);}
+
 
 @media (max-width: 500px) {
   h1 {
@@ -111,7 +149,7 @@ ul {
     margin: 20px 0 30px 0;
   }
   div {
-    margin: 20px 12px 0 12px;
+    margin: 20px 12px 0px 12px;
   }
   p {
     font-size: 20px;
@@ -120,8 +158,9 @@ ul {
   small {
     font-size: 16px;
   }
+}
 
   footer {
   background-image: url("chalkboardbackground.jpg");
-  padding: -50px -20px -50px -10px;
+  margin: 20px 0px -50px 0px;
 }
