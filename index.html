@@ -1,132 +1,40 @@
 <!DOCTYPE html>
-
-<head>
-<script src="/assets/jquery.js"></script>
+<html>
+  <head>
 <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
-<style>
-body {
-  font-family: helvetica, sans-serif;
-  margin: 0 auto;
-  max-width: 600px;
-  background: #232323;
-}
-div {
-  height: 200px;
-  background-size: cover;
-  position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
-}
-h1 {
-  font-family: 'Londrina Shadow', cursive;
-  text-align: center;
-  font-size: 75px;
-  color: #aaaaaa;
-  margin: 60px 0 0 0;
-}
-ul {
-      padding: 10px;
-      background: rgba(0, 0, 0, 0.5);
-}
-li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-}
-h2 {
-  text-align: center;
-  color: #bbbbbb;
-  margin: 0px 0 70px 0;
-}
-p {
-  color: rgba(255,255,255,1);
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 10px;
-  line-height: 30px;
-  text-align: justify;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
-}
-small {
-  opacity: 0;
-}
-.show-description p {
-  height: 150px;
-}
 
-.show-description small {
-  opacity: 1;
-}
+<title>Cakeaway Southampton</title>
 
-.first{
-  background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
-}
-.second{
-  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
-}
-.third{
-  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
-}
-.price {
-  float: right;
-}
-input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: red;
-      color: white;
-    }
+<link rel="stylesheet" type="text/css" href="cakeaway_stylesheet">
 
-@media (max-width: 500px) {
-  h1 {
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 20px;
-    margin: 20px 0 30px 0;
-  }
-  ul {
-      padding: 10px;
-      background: rgba(0, 0, 0, 0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-  div {
-    margin: 20px 12px 0 12px;
-  }
-  p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  small {
-    font-size: 16px;
-  }
-}
-  
-</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 
 </head>
 
 <body>
-<h1>Cakeaway</h1>
-  <h2>Southampton's Dessert Delivery Service</h2>
-<ul>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+
+<header>
+
+  <div class='container'>
+
+      <h1>Cakeaway</h1>
+
+      <h2>Southampton's Dessert Delivery Service</h2>
+
+<div class="row" id="menuBar">
+                    <div class="twelve columns" id="nav">
+                      <ul class="nav-bar right">
+       <li><a href="#">Homepage</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Menu</a></li>
+         <li><a href="#">Contact</a></li>
+         </ul>
+      
+               </div>
+      </div>
+  </header>
+
 
 <div class="first">
   <p>Victoria Sponge <span class="price">£4.50</span><br />
@@ -143,11 +51,6 @@ input {
   <small>Enjoy this classic British moist sponge cake made with dates and covered in a delicious sticky toffee sauce. Serving tip: vanilla ice cream! </small></p>
 </div>
 
-<p>Keep up to date with any new additions to the menu!</p>
-<input type="name" placeholder="Your name">
- <input type="email" placeholder="Your email">
-  <input type="submit">
-
 <script>
 alert("Welcome to Southampton Cakeaway!") 
 $('div').on('click', function() {
@@ -156,3 +59,34 @@ $('div').on('click', function() {
   </script>
 
 </body>
+
+<footer>
+
+ <div class="hr"><hr></div>
+                <div class="row" id="bottomNav">
+                        
+                        <div class="six columns">
+                           <p>Southampton Cakeaway © 2015 | All rights reserved<br />
+                          <span class="small">Designed &#38 developed by Amy Fearn, Lauren Kiff and Megan Charles with help from CodeFirst: Girls</span></p>
+                        </div>
+                      </div>
+                    </div>                                      
+
+               <div class="row" 
+      <div class="six columns" id="socialIcons">
+      <p> 
+          <a class="icon" href = "https://www.linkedin.com/in/amy-fearn-84789510a" target="_blank" onmouseover="document.s1.src='img/linkedinLG.png'" onmouseout="document.s1.src='img/linkedinLG.png'" onmousedown="document.s1.src='img/linkedinLG.png'" onmouseup="document.s1.src='img/linkedinLG.png'"><img src="img/linkedinLG.png" title="LinkedIn" alt="LinkedIn" name="s1" /></a>
+        
+        <a class="icon" href = "http://www.facebook.com/amy.fearn.75" target="_blank" onmouseover="document.s2.src='img/facebookG.png'" onmouseout="document.s2.src='img/facebookG.png'" onmousedown="document.s2.src='img/facebookG.png'" onmouseup="document.s2.src='img/facebookG.png'" ><img src="img/facebookG.png" title="Facebook" alt="Facebook" name="s2" /></a>   
+                
+          <a class="icon" href="https://github.com/amycdefghi" target="_blank" onmouseover="document.s5.src='img/Github_Logo.png'" onmouseout="document.s5.src='img/Github_Logo.png'" onmousedown="document.s5.src='img/GitHub_Logo.png'" onmouseup="document.s5.src='img/GitHub_Logo.png'"><img src="img/GitHub_Logo.png" alt="GitHub" title="GitHub" name="s5" /></a>
+         
+      </p>
+       </div>
+       <div class="six columns">
+       </div>
+    </div>       
+
+</footer>
+
+</html>
