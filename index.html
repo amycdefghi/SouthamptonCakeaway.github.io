@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
 
-<title>Cakeaway Southampton</title>
+        <title>Cakeaway Southampton</title>
 
-<link rel="stylesheet" type="text/css" href="cakeaway_stylesheet">
+      <link rel="stylesheet" type="text/css" href="StyleSheets/style.css">
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 </head>
 
+
 <body>
 
-<header>
+  <header>
 
   <div class='container'>
 
@@ -22,37 +22,45 @@
 
       <h2>Southampton's Dessert Delivery Service</h2>
 
-<div class="row" id="menuBar">
+
+    <div class="row" id="menuBar">
                     <div class="twelve columns" id="nav">
                       <ul class="nav-bar right">
-       <li><a href="#">Homepage</a></li>
-         <li><a href="#">About Us</a></li>
-         <li><a href="#">Menu</a></li>
+         <li><a href="#">Homepage</a></li>
+         <li><a href="#about">About Us</a></li>
+         <li><a href="#menu">Menu</a></li>
          <li><a href="#">Contact</a></li>
          </ul>
       
-               </div>
+                    </div>
       </div>
-  </header>
+
+   </header>
+
+<div id="about">
+  <p class="aboutext" id="aboutext">Welcome to Southamptons Cakeaway, your local dessert takeaway. Everyone can have a chinese or indian delivered to them, but what about dessert? Well here we are to solve that problem for you as we are the business that gets dessert to you</p>
+</div>
 
 
 <div class="first">
-  <p>Victoria Sponge <span class="price">£4.50</span><br />
+  <p class="menu" id="menu">Victoria Sponge <span class="price">£4.50</span><br />
   <small>The Victoria sponge, also known as the Victoria sandwich or Victorian Cake, was named after Queen Victoria, who was known to enjoy a slice of the sponge cake with her afternoon tea. Enjoy this light, fluffy sponge cake with a strawberry jam and cream filling. Serving tip: Add some fresh strawberries! </small></p>
 </div>
 
 <div class="second">
-  <p>New York Cheesecake <span class="price">£5.00</span><br />
+  <p class="menu" id="menu">New York Cheesecake <span class="price">£5.00</span><br />
   <small>This authentic creamy dessert will add a taste of New York to anyone. Enjoy this buttery, crumbly crust with a smooth, delicate vanilla filling.</small></p>
 </div>
   
 <div class="third">
-  <p>Sticky Toffee Pudding <span class="price">£4.50</span><br />
+  <p class="menu" id="menu">Sticky Toffee Pudding <span class="price">£4.50</span><br />
   <small>Enjoy this classic British moist sponge cake made with dates and covered in a delicious sticky toffee sauce. Serving tip: vanilla ice cream! </small></p>
 </div>
 
+
+
 <script>
-alert("Welcome to Southampton Cakeaway!") 
+alert("JavaScript works!") 
 $('div').on('click', function() {
   $(this).toggleClass('show-description');
 });
@@ -62,7 +70,7 @@ $('div').on('click', function() {
 
 <footer>
 
- <div class="hr"><hr></div>
+<div class="hr"><hr></div>
                 <div class="row" id="bottomNav">
                         
                         <div class="six columns">
@@ -75,11 +83,11 @@ $('div').on('click', function() {
                <div class="row" 
       <div class="six columns" id="socialIcons">
       <p> 
-          <a class="icon" href = "https://www.linkedin.com/in/amy-fearn-84789510a" target="_blank" onmouseover="document.s1.src='img/linkedinLG.png'" onmouseout="document.s1.src='img/linkedinLG.png'" onmousedown="document.s1.src='img/linkedinLG.png'" onmouseup="document.s1.src='img/linkedinLG.png'"><img src="img/linkedinLG.png" title="LinkedIn" alt="LinkedIn" name="s1" /></a>
+          <a class="icon" href = "https://www.linkedin.com" target="_blank" onmouseover="document.s1.src='img/linkedinLG.png'" onmouseout="document.s1.src='img/linkedinLG.png'" onmousedown="document.s1.src='img/linkedinLG.png'" onmouseup="document.s1.src='img/linkedinLG.png'"><img src="img/linkedinLG.png" title="LinkedIn" alt="LinkedIn" name="s1" /></a>
         
-        <a class="icon" href = "http://www.facebook.com/amy.fearn.75" target="_blank" onmouseover="document.s2.src='img/facebookG.png'" onmouseout="document.s2.src='img/facebookG.png'" onmousedown="document.s2.src='img/facebookG.png'" onmouseup="document.s2.src='img/facebookG.png'" ><img src="img/facebookG.png" title="Facebook" alt="Facebook" name="s2" /></a>   
+        <a class="icon" href = "http://www.facebook.com" target="_blank" onmouseover="document.s2.src='img/facebookG.png'" onmouseout="document.s2.src='img/facebookG.png'" onmousedown="document.s2.src='img/facebookG.png'" onmouseup="document.s2.src='img/facebookG.png'" ><img src="img/facebookG.png" title="Facebook" alt="Facebook" name="s2" /></a>   
                 
-          <a class="icon" href="https://github.com/amycdefghi" target="_blank" onmouseover="document.s5.src='img/Github_Logo.png'" onmouseout="document.s5.src='img/Github_Logo.png'" onmousedown="document.s5.src='img/GitHub_Logo.png'" onmouseup="document.s5.src='img/GitHub_Logo.png'"><img src="img/GitHub_Logo.png" alt="GitHub" title="GitHub" name="s5" /></a>
+          <a class="icon" href="https://github.com" target="_blank" onmouseover="document.s5.src='img/Github_Logo.png'" onmouseout="document.s5.src='img/Github_Logo.png'" onmousedown="document.s5.src='img/GitHub_Logo.png'" onmouseup="document.s5.src='img/GitHub_Logo.png'"><img src="img/GitHub_Logo.png" alt="GitHub" title="GitHub" name="s5" /></a>
          
       </p>
        </div>
